@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
+    <style>
+      .form {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+      }
+    </style>
   </head>
   <body>
     <h1>Contact Me</h1>
-    <form action="POST">
+    <form action="POST" class="form">
       <input type="text" placeholder="Name" />
       <input type="text" placeholder="Email" />
       <textarea
